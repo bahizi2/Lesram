@@ -7,7 +7,16 @@ import Trip from "../components/Trip";
 function Service() {
   return (
     <>
-      <h1>Call The Components</h1>
+      <Navbar />
+      <Hero
+        cName="hero-about"
+        heroImg={AboutImg}
+        title="Service"
+        // text="gggggggggggggggggggggggggggggggggg"
+        // buttonText="Read more"
+        // url="/"
+        // btnClass="show"
+      />
     </>
   );
 }

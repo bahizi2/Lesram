@@ -8,7 +8,9 @@ import "./DestinationStyles.css";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Your Code Here</h1>
+      <h1>What we do</h1>
+      <p> dgcdgcgycgygcygcydgcygcydgcygc</p>
+      <div className="first-des"></div>
     </div>
   );
 };

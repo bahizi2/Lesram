@@ -7,9 +7,21 @@ import AboutUs from "../components/AboutUs";
 function About() {
   return (
     <>
-      <h1>Call The Components</h1>
+      <Navbar />
+      <Hero
+        cName="hero-about"
+        heroImg={AboutImg}
+        title="About-Us"
+        // text="gggggggggggggggggggggggggggggggggg"
+        // buttonText="Read more"
+        // url="/"
+        // btnClass="show"
+      />
     </>
   );
 }
+
+export default About;
+
 
 export default About;
