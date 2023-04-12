@@ -17,11 +17,10 @@ function About() {
         // url="/"
         // btnClass="show"
       />
+      <AboutUs />
+      <Footer />
     </>
   );
 }
-
-export default About;
-
 
 export default About;

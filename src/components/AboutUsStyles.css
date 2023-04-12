@@ -1,1 +1,22 @@
-/* Style your components */
+.about-container {
+    margin: 4rem 6rem;
+    text-align: start;
+    width: 30%;
+  }
+  .about-container h1 {
+    padding-bottom: 1rem;
+  }
+  .about-container p {
+    padding-bottom: 2rem;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .about-container {
+      margin: 4rem 2rem;
+      width: 80%;
+    }
+    .about-container h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

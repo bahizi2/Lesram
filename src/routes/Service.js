@@ -17,6 +17,8 @@ function Service() {
         // url="/"
         // btnClass="show"
       />
+      <Trip />
+      <Footer />
     </>
   );
 }

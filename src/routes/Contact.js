@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
       <Navbar />
-         <Hero
+      <Hero
         cName="hero-about"
         heroImg={AboutImg}
         title="Contact"
@@ -17,6 +17,8 @@ function Contact() {
         // url="/"
         // btnClass="show"
       />
+      <ContactForm />
+      <Footer />
     </>
   );
 }
