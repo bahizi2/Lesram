@@ -10,13 +10,12 @@ function Gallery() {
       <Hero
         cName="hero-about"
         heroImg={AboutImg}
-        title="Contact"
+        title="Gallery"
         // text="gggggggggggggggggggggggggggggggggg"
         // buttonText="Read more"
         // url="/"
         // btnClass="show"
       />
-      <ContactForm />
       <Footer />
     </>
   );

@@ -8,8 +8,10 @@ class AboutUsData extends Component {
         <div className="des-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>
-          <h2 className="title">{this.props.heading}</h2>
-          <p>{this.props.text}</p>
+          <h2 className="title">{this.props.heading2}</h2>
+          <p>{this.props.text2}</p>
+          <h2 className="title">{this.props.heading3}</h2>
+          <p>{this.props.text3}</p>
         </div>
         <div className="image">
           <img alt="img" src={this.props.img1} />

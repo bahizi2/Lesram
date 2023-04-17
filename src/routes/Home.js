@@ -18,7 +18,7 @@ function Home() {
         btnClass="show"
       />
       <Destination />
-      <Trip />
+      <TripHome />
       <Footer />
     </>
   );
