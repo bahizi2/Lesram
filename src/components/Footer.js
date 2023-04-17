@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div>
-          <h1>Lesrams</h1>
+          <h1>Les Rams Consult LtD</h1>
           <p>Learning a little each day adds up.</p>
         </div>
         <div>
@@ -25,40 +25,30 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div>
-          <h4>project</h4>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
+          <h4>Permalinks</h4>
+          <a href="/">Home</a>
+          <a href="/">About Us</a>
+          <a href="/">Contact</a>
         </div>
 
         <div>
-          <h4>project</h4>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
+          <h4>Projects</h4>
+          <a href="/">Kibali</a>
+          <a href="/">Scala</a>
+          <a href="/">FAO</a>
+          <a href="/">et.c</a>
         </div>
 
         <div>
-          <h4>project</h4>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
+          <h4>Contact Us</h4>
+          <p>+256 414-67-03-78</p>
+          <a href="/"></a>
+          <a href="/"></a>
+          <a href="/">lesramsconsult@gmail.com</a>
         </div>
-
-        <div>
-          <h4>project</h4>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-          <a href="/">status</a>
-        </div>
+      </div>
+      <div className="copyright">
+        <small>Copyright © All Rights Reserved</small>
       </div>
     </div>
   );
