@@ -3,9 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Service from "./routes/Service";
-import Gallery from "./routes/Gallery";
+// import Gallery from "./routes/Gallery";
 import Contact from "./routes/Contact";
-
 
 export default function App() {
   return (
@@ -15,7 +14,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        {/* <Route path="/Gallery" element={<Gallery />} /> */}
       </Routes>
     </div>
   );
