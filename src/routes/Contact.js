@@ -7,18 +7,7 @@ import ContactForm from "../components/ContactForm";
 function Contact() {
   return (
     <>
-      <Navbar />
-      <Hero
-        cName="hero-about"
-        heroImg={AboutImg}
-        title="Contact"
-        // text="gggggggggggggggggggggggggggggggggg"
-        // buttonText="Read more"
-        // url="/"
-        // btnClass="show"
-      />
-      <ContactForm />
-      <Footer />
+      <h1>Call The Components</h1>
     </>
   );
 }
