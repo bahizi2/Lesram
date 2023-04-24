@@ -13,10 +13,7 @@ const Destination = () => {
       <DestinationData
         className="first-des"
         heading="Our services"
-        text="Learning a little each day adds up. Research shows that students who
-            make learning a habit are more likely to retain information and
-            reach their goals. Set time aside to learn and get reminders using
-            your learning event scheduler."
+        text="We are a multi-disciplinary consortium consultant entity providing solutions to individuals, organizations and government departments. Our services are tailored to local conditions based on awareness of local culture and politics to yield feasible solutions for improved livelihood and food security."
         img1={Mountain1}
         img2={Mountain2}
         // buttonText="Read more"
@@ -26,10 +23,11 @@ const Destination = () => {
       <DestinationData
         className="first-des-reverse"
         heading="Our services"
-        text="Learning a little each day adds up. Research shows that students who
-            make learning a habit are more likely to retain information and
-            reach their goals. Set time aside to learn and get reminders using
-            your learning event scheduler."
+        text="Competent in water quality analysis."
+        text1="soil analysis"
+        text2="GIS"
+        text3="surveying"
+        text4=" environment and agricultural research."
         img1={Mountain3}
         img2={Mountain4}
       />

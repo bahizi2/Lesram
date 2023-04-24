@@ -9,7 +9,7 @@ function ContactForm() {
         <input placeholder="Email" />
         <input placeholder="Subject" />
         <textarea placeholder="Message" row="4"></textarea>
-        <button>Send Message</button>
+        <button className="show">Send Message</button>
       </form>
     </div>
   );

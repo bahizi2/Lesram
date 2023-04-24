@@ -122,7 +122,7 @@ function AboutUs() {
           <div class="post">
             <div class="thumbnail">
               <div class="img-container">
-                <img src="" alt="no-image" />
+                <img src="https://lesrams-com.stackstaging.com/img/alice.jpg" alt="no-image" />
               </div>
             </div>
             <div class="header">
