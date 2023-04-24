@@ -3,8 +3,15 @@ import "./HeroStyles.css";
 function Hero(props) {
   return (
     <>
-      <div>
-        <h1>Your Code Here</h1>
+      <div className={props.cName}>
+        <img alt="HeroImg" src={props.heroImg} />
+        <div className="hero-text">
+          <h1>{props.title}</h1>
+          <p>{props.text}</p>
+          <a href={props.url} className={props.btnClass}>
+            {props.buttonText}
+          </a>
+        </div>
       </div>
     </>
   );
